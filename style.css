@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-wrap: wrap;*/
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list,
+.preferences {
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.theme2 .list{
+    background-color: pink;
+}
+.theme3 .list{
+    background-color: rgb(123, 238, 238);
+}
+
+.list-style2{
+    list-style-type: circle;
+  }
+.list-style3{
+    list-style-type: square;
+  }
